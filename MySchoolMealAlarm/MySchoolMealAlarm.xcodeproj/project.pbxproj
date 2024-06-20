@@ -8,23 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		4D81D09B2C22748200BFD3BF /* MySchoolMealAlarmApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D81D09A2C22748200BFD3BF /* MySchoolMealAlarmApp.swift */; };
-		4D81D09D2C22748200BFD3BF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D81D09C2C22748200BFD3BF /* ContentView.swift */; };
 		4D81D09F2C22748300BFD3BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D81D09E2C22748300BFD3BF /* Assets.xcassets */; };
 		4D81D0A22C22748300BFD3BF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D81D0A12C22748300BFD3BF /* Preview Assets.xcassets */; };
-		4D81D0A92C2275E600BFD3BF /* SchoolMealInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D81D0A82C2275E600BFD3BF /* SchoolMealInfo.swift */; };
-		4D81D0AB2C22763500BFD3BF /* SchoolMealDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D81D0AA2C22763500BFD3BF /* SchoolMealDataModel.swift */; };
 		4D81D0AE2C22777000BFD3BF /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 4D81D0AD2C22777000BFD3BF /* Alamofire */; };
 		4D81D0B02C22777000BFD3BF /* AlamofireDynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 4D81D0AF2C22777000BFD3BF /* AlamofireDynamic */; };
+		4DDF2D662C2289D400B3AB56 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DDF2D652C2289D400B3AB56 /* ContentView.swift */; };
+		4DDF2D682C23A80300B3AB56 /* testView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DDF2D672C23A80300B3AB56 /* testView.swift */; };
+		4DDF2D6A2C23AC7600B3AB56 /* MealInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DDF2D692C23AC7600B3AB56 /* MealInfo.swift */; };
+		4DDF2D6C2C23ACAF00B3AB56 /* MealData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DDF2D6B2C23ACAF00B3AB56 /* MealData.swift */; };
+		4DDF2D6E2C23AD3700B3AB56 /* MealInfoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DDF2D6D2C23AD3700B3AB56 /* MealInfoViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4D81D0972C22748200BFD3BF /* MySchoolMealAlarm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MySchoolMealAlarm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D81D09A2C22748200BFD3BF /* MySchoolMealAlarmApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySchoolMealAlarmApp.swift; sourceTree = "<group>"; };
-		4D81D09C2C22748200BFD3BF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4D81D09E2C22748300BFD3BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D81D0A12C22748300BFD3BF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		4D81D0A82C2275E600BFD3BF /* SchoolMealInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolMealInfo.swift; sourceTree = "<group>"; };
-		4D81D0AA2C22763500BFD3BF /* SchoolMealDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolMealDataModel.swift; sourceTree = "<group>"; };
+		4DDF2D652C2289D400B3AB56 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4DDF2D672C23A80300B3AB56 /* testView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testView.swift; sourceTree = "<group>"; };
+		4DDF2D692C23AC7600B3AB56 /* MealInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealInfo.swift; sourceTree = "<group>"; };
+		4DDF2D6B2C23ACAF00B3AB56 /* MealData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealData.swift; sourceTree = "<group>"; };
+		4DDF2D6D2C23AD3700B3AB56 /* MealInfoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealInfoViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +64,11 @@
 			isa = PBXGroup;
 			children = (
 				4D81D09A2C22748200BFD3BF /* MySchoolMealAlarmApp.swift */,
-				4D81D09C2C22748200BFD3BF /* ContentView.swift */,
-				4D81D0A82C2275E600BFD3BF /* SchoolMealInfo.swift */,
-				4D81D0AA2C22763500BFD3BF /* SchoolMealDataModel.swift */,
+				4DDF2D652C2289D400B3AB56 /* ContentView.swift */,
+				4DDF2D672C23A80300B3AB56 /* testView.swift */,
+				4DDF2D6D2C23AD3700B3AB56 /* MealInfoViewModel.swift */,
+				4DDF2D6B2C23ACAF00B3AB56 /* MealData.swift */,
+				4DDF2D692C23AC7600B3AB56 /* MealInfo.swift */,
 				4D81D09E2C22748300BFD3BF /* Assets.xcassets */,
 				4D81D0A02C22748300BFD3BF /* Preview Content */,
 			);
@@ -154,10 +160,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D81D09D2C22748200BFD3BF /* ContentView.swift in Sources */,
-				4D81D0A92C2275E600BFD3BF /* SchoolMealInfo.swift in Sources */,
-				4D81D0AB2C22763500BFD3BF /* SchoolMealDataModel.swift in Sources */,
+				4DDF2D6A2C23AC7600B3AB56 /* MealInfo.swift in Sources */,
+				4DDF2D6C2C23ACAF00B3AB56 /* MealData.swift in Sources */,
+				4DDF2D662C2289D400B3AB56 /* ContentView.swift in Sources */,
+				4DDF2D6E2C23AD3700B3AB56 /* MealInfoViewModel.swift in Sources */,
 				4D81D09B2C22748200BFD3BF /* MySchoolMealAlarmApp.swift in Sources */,
+				4DDF2D682C23A80300B3AB56 /* testView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
