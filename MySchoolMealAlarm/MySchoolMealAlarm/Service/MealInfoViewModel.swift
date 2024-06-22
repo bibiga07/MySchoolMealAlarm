@@ -11,10 +11,10 @@ import Alamofire
 class MealInfoViewModel: ObservableObject {
     @Published var meals: [MealInfo] = []
     
-    func fetchData() {
+    func fetchData(schoolCode: String) {
         let parameters: [String: String] = [
             "ATPT_OFCDC_SC_CODE": "D10",
-            "SD_SCHUL_CODE": "7240454",
+            "SD_SCHUL_CODE": schoolCode,
             "KEY": "\(Storage().niceapiKey)",
             "MLSV_YMD": "20240620"
         ]
