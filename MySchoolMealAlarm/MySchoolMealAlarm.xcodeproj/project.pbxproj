@@ -8,22 +8,56 @@
 
 /* Begin PBXBuildFile section */
 		4D5A67542C26A60300BB2D2D /* MealView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5A67532C26A60300BB2D2D /* MealView.swift */; };
+		4D5A67562C26AAA700BB2D2D /* D10_education.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4D5A67552C26AAA700BB2D2D /* D10_education.csv */; };
+		4D5A67582C26AB5800BB2D2D /* B10_education.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4D5A67572C26AB5800BB2D2D /* B10_education.csv */; };
+		4D5A675A2C26AD5A00BB2D2D /* C10_education.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4D5A67592C26AD5900BB2D2D /* C10_education.csv */; };
+		4D5A675C2C26ADA000BB2D2D /* E10_education.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4D5A675B2C26ADA000BB2D2D /* E10_education.csv */; };
+		4D5A675E2C26ADDF00BB2D2D /* F10_education.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4D5A675D2C26ADDF00BB2D2D /* F10_education.csv */; };
+		4D5A67602C26AE4300BB2D2D /* G10_education.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4D5A675F2C26AE4300BB2D2D /* G10_education.csv */; };
+		4D5A67622C26AF4700BB2D2D /* H10_education.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4D5A67612C26AF4700BB2D2D /* H10_education.csv */; };
+		4D5A67642C26AF9E00BB2D2D /* I10_education.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4D5A67632C26AF9E00BB2D2D /* I10_education.csv */; };
+		4D5A67662C26B00D00BB2D2D /* J10_education.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4D5A67652C26B00D00BB2D2D /* J10_education.csv */; };
+		4D5A67682C26B05200BB2D2D /* K10_education.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4D5A67672C26B05200BB2D2D /* K10_education.csv */; };
+		4D5A676A2C26B09300BB2D2D /* M10_education.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4D5A67692C26B09300BB2D2D /* M10_education.csv */; };
+		4D5A676C2C26B0E700BB2D2D /* N10_education.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4D5A676B2C26B0E700BB2D2D /* N10_education.csv */; };
+		4D5A676E2C26B11C00BB2D2D /* P10_education.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4D5A676D2C26B11C00BB2D2D /* P10_education.csv */; };
+		4D5A67702C26B46F00BB2D2D /* Q10_education.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4D5A676F2C26B46E00BB2D2D /* Q10_education.csv */; };
+		4D5A67722C26B52200BB2D2D /* R10_education.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4D5A67712C26B52200BB2D2D /* R10_education.csv */; };
+		4D5A67742C26B56A00BB2D2D /* S10_education.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4D5A67732C26B56A00BB2D2D /* S10_education.csv */; };
+		4D5A67762C26B5FB00BB2D2D /* T10_education.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4D5A67752C26B5FB00BB2D2D /* T10_education.csv */; };
+		4D5A67782C26B8AF00BB2D2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D5A67772C26B8AF00BB2D2D /* LaunchScreen.storyboard */; };
 		4D81D09B2C22748200BFD3BF /* MySchoolMealAlarmApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D81D09A2C22748200BFD3BF /* MySchoolMealAlarmApp.swift */; };
 		4D81D09F2C22748300BFD3BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D81D09E2C22748300BFD3BF /* Assets.xcassets */; };
 		4D81D0A22C22748300BFD3BF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D81D0A12C22748300BFD3BF /* Preview Assets.xcassets */; };
 		4D81D0AE2C22777000BFD3BF /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 4D81D0AD2C22777000BFD3BF /* Alamofire */; };
-		4D81D0B02C22777000BFD3BF /* AlamofireDynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 4D81D0AF2C22777000BFD3BF /* AlamofireDynamic */; };
 		4DDF2D662C2289D400B3AB56 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DDF2D652C2289D400B3AB56 /* ContentView.swift */; };
 		4DDF2D6A2C23AC7600B3AB56 /* MealInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DDF2D692C23AC7600B3AB56 /* MealInfo.swift */; };
 		4DDF2D6C2C23ACAF00B3AB56 /* MealData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DDF2D6B2C23ACAF00B3AB56 /* MealData.swift */; };
 		4DDF2D6E2C23AD3700B3AB56 /* MealInfoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DDF2D6D2C23AD3700B3AB56 /* MealInfoViewModel.swift */; };
 		4DDF2D702C23ADCB00B3AB56 /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DDF2D6F2C23ADCB00B3AB56 /* Storage.swift */; };
 		4DDF2D732C23C4C000B3AB56 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DDF2D722C23C4C000B3AB56 /* SearchView.swift */; };
-		4DDF2D7A2C23D8E700B3AB56 /* D10_education.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4DDF2D792C23D8E700B3AB56 /* D10_education.csv */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4D5A67532C26A60300BB2D2D /* MealView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealView.swift; sourceTree = "<group>"; };
+		4D5A67552C26AAA700BB2D2D /* D10_education.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = D10_education.csv; path = ../../../../Downloads/D10_education.csv; sourceTree = "<group>"; };
+		4D5A67572C26AB5800BB2D2D /* B10_education.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = B10_education.csv; path = ../../../../Downloads/B10_education.csv; sourceTree = "<group>"; };
+		4D5A67592C26AD5900BB2D2D /* C10_education.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = C10_education.csv; path = ../../../../Downloads/C10_education.csv; sourceTree = "<group>"; };
+		4D5A675B2C26ADA000BB2D2D /* E10_education.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = E10_education.csv; path = ../../../../Downloads/E10_education.csv; sourceTree = "<group>"; };
+		4D5A675D2C26ADDF00BB2D2D /* F10_education.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = F10_education.csv; path = ../../../../Downloads/F10_education.csv; sourceTree = "<group>"; };
+		4D5A675F2C26AE4300BB2D2D /* G10_education.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = G10_education.csv; path = ../../../../Downloads/G10_education.csv; sourceTree = "<group>"; };
+		4D5A67612C26AF4700BB2D2D /* H10_education.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = H10_education.csv; path = ../../../../Downloads/H10_education.csv; sourceTree = "<group>"; };
+		4D5A67632C26AF9E00BB2D2D /* I10_education.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = I10_education.csv; path = ../../../../Downloads/I10_education.csv; sourceTree = "<group>"; };
+		4D5A67652C26B00D00BB2D2D /* J10_education.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = J10_education.csv; path = ../../../../Downloads/J10_education.csv; sourceTree = "<group>"; };
+		4D5A67672C26B05200BB2D2D /* K10_education.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = K10_education.csv; path = ../../../../Downloads/K10_education.csv; sourceTree = "<group>"; };
+		4D5A67692C26B09300BB2D2D /* M10_education.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = M10_education.csv; path = ../../../../Downloads/M10_education.csv; sourceTree = "<group>"; };
+		4D5A676B2C26B0E700BB2D2D /* N10_education.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = N10_education.csv; path = ../../../../Downloads/N10_education.csv; sourceTree = "<group>"; };
+		4D5A676D2C26B11C00BB2D2D /* P10_education.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = P10_education.csv; path = ../../../../Downloads/P10_education.csv; sourceTree = "<group>"; };
+		4D5A676F2C26B46E00BB2D2D /* Q10_education.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Q10_education.csv; path = ../../../../Downloads/Q10_education.csv; sourceTree = "<group>"; };
+		4D5A67712C26B52200BB2D2D /* R10_education.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = R10_education.csv; path = ../../../../Downloads/R10_education.csv; sourceTree = "<group>"; };
+		4D5A67732C26B56A00BB2D2D /* S10_education.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = S10_education.csv; path = ../../../../Downloads/S10_education.csv; sourceTree = "<group>"; };
+		4D5A67752C26B5FB00BB2D2D /* T10_education.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = T10_education.csv; path = ../../../../Downloads/T10_education.csv; sourceTree = "<group>"; };
+		4D5A67772C26B8AF00BB2D2D /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4D81D0972C22748200BFD3BF /* MySchoolMealAlarm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MySchoolMealAlarm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D81D09A2C22748200BFD3BF /* MySchoolMealAlarmApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySchoolMealAlarmApp.swift; sourceTree = "<group>"; };
 		4D81D09E2C22748300BFD3BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -34,7 +68,6 @@
 		4DDF2D6D2C23AD3700B3AB56 /* MealInfoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealInfoViewModel.swift; sourceTree = "<group>"; };
 		4DDF2D6F2C23ADCB00B3AB56 /* Storage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
 		4DDF2D722C23C4C000B3AB56 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
-		4DDF2D792C23D8E700B3AB56 /* D10_education.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = D10_education.csv; path = ../../../D10_education.csv; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,7 +76,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D81D0AE2C22777000BFD3BF /* Alamofire in Frameworks */,
-				4D81D0B02C22777000BFD3BF /* AlamofireDynamic in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,7 +101,23 @@
 		4D81D0992C22748200BFD3BF /* MySchoolMealAlarm */ = {
 			isa = PBXGroup;
 			children = (
-				4DDF2D792C23D8E700B3AB56 /* D10_education.csv */,
+				4D5A67752C26B5FB00BB2D2D /* T10_education.csv */,
+				4D5A67732C26B56A00BB2D2D /* S10_education.csv */,
+				4D5A67712C26B52200BB2D2D /* R10_education.csv */,
+				4D5A676F2C26B46E00BB2D2D /* Q10_education.csv */,
+				4D5A676D2C26B11C00BB2D2D /* P10_education.csv */,
+				4D5A676B2C26B0E700BB2D2D /* N10_education.csv */,
+				4D5A67692C26B09300BB2D2D /* M10_education.csv */,
+				4D5A67672C26B05200BB2D2D /* K10_education.csv */,
+				4D5A67652C26B00D00BB2D2D /* J10_education.csv */,
+				4D5A67632C26AF9E00BB2D2D /* I10_education.csv */,
+				4D5A67612C26AF4700BB2D2D /* H10_education.csv */,
+				4D5A675F2C26AE4300BB2D2D /* G10_education.csv */,
+				4D5A675D2C26ADDF00BB2D2D /* F10_education.csv */,
+				4D5A675B2C26ADA000BB2D2D /* E10_education.csv */,
+				4D5A67592C26AD5900BB2D2D /* C10_education.csv */,
+				4D5A67572C26AB5800BB2D2D /* B10_education.csv */,
+				4D5A67552C26AAA700BB2D2D /* D10_education.csv */,
 				4D81D09A2C22748200BFD3BF /* MySchoolMealAlarmApp.swift */,
 				4DDF2D652C2289D400B3AB56 /* ContentView.swift */,
 				4DDF2D722C23C4C000B3AB56 /* SearchView.swift */,
@@ -77,6 +125,7 @@
 				4DDF2D712C23ADDA00B3AB56 /* Service */,
 				4D81D09E2C22748300BFD3BF /* Assets.xcassets */,
 				4D81D0A02C22748300BFD3BF /* Preview Content */,
+				4D5A67772C26B8AF00BB2D2D /* LaunchScreen.storyboard */,
 			);
 			path = MySchoolMealAlarm;
 			sourceTree = "<group>";
@@ -118,7 +167,6 @@
 			name = MySchoolMealAlarm;
 			packageProductDependencies = (
 				4D81D0AD2C22777000BFD3BF /* Alamofire */,
-				4D81D0AF2C22777000BFD3BF /* AlamofireDynamic */,
 			);
 			productName = MySchoolMealAlarm;
 			productReference = 4D81D0972C22748200BFD3BF /* MySchoolMealAlarm.app */;
@@ -165,9 +213,26 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4DDF2D7A2C23D8E700B3AB56 /* D10_education.csv in Resources */,
+				4D5A67662C26B00D00BB2D2D /* J10_education.csv in Resources */,
+				4D5A67762C26B5FB00BB2D2D /* T10_education.csv in Resources */,
+				4D5A676E2C26B11C00BB2D2D /* P10_education.csv in Resources */,
+				4D5A675C2C26ADA000BB2D2D /* E10_education.csv in Resources */,
+				4D5A67562C26AAA700BB2D2D /* D10_education.csv in Resources */,
+				4D5A67742C26B56A00BB2D2D /* S10_education.csv in Resources */,
+				4D5A675E2C26ADDF00BB2D2D /* F10_education.csv in Resources */,
+				4D5A67582C26AB5800BB2D2D /* B10_education.csv in Resources */,
+				4D5A676A2C26B09300BB2D2D /* M10_education.csv in Resources */,
+				4D5A675A2C26AD5A00BB2D2D /* C10_education.csv in Resources */,
+				4D5A67702C26B46F00BB2D2D /* Q10_education.csv in Resources */,
+				4D5A67682C26B05200BB2D2D /* K10_education.csv in Resources */,
 				4D81D0A22C22748300BFD3BF /* Preview Assets.xcassets in Resources */,
+				4D5A67782C26B8AF00BB2D2D /* LaunchScreen.storyboard in Resources */,
+				4D5A67622C26AF4700BB2D2D /* H10_education.csv in Resources */,
+				4D5A67602C26AE4300BB2D2D /* G10_education.csv in Resources */,
+				4D5A67642C26AF9E00BB2D2D /* I10_education.csv in Resources */,
+				4D5A67722C26B52200BB2D2D /* R10_education.csv in Resources */,
 				4D81D09F2C22748300BFD3BF /* Assets.xcassets in Resources */,
+				4D5A676C2C26B0E700BB2D2D /* N10_education.csv in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,11 +384,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MySchoolMealAlarm/Preview Content\"";
+				DEVELOPMENT_TEAM = ZTJ578GV68;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "나의 급식 알리미";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -347,11 +415,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MySchoolMealAlarm/Preview Content\"";
+				DEVELOPMENT_TEAM = ZTJ578GV68;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "나의 급식 알리미";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -406,11 +477,6 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 4D81D0AC2C22777000BFD3BF /* XCRemoteSwiftPackageReference "Alamofire" */;
 			productName = Alamofire;
-		};
-		4D81D0AF2C22777000BFD3BF /* AlamofireDynamic */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 4D81D0AC2C22777000BFD3BF /* XCRemoteSwiftPackageReference "Alamofire" */;
-			productName = AlamofireDynamic;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
