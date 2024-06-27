@@ -21,6 +21,8 @@ struct SearchView: View {
     @State private var schoolCode: String? = nil
     @State private var navigateToMealView = false
     
+    @State private var SchoolAlert = false
+    
     var body: some View {
         NavigationView {
             VStack {
@@ -61,7 +63,7 @@ struct SearchView: View {
                         schoolCode = code
                         navigateToMealView = true
                     } else {
-                        print("학교를 찾을 수 없음")
+                        self.SchoolAlert.toggle()
                     }
                 }) {
                     Rectangle()
@@ -73,8 +75,11 @@ struct SearchView: View {
                                 .foregroundColor(.white)
                         )
                 }
+                .alert(isPresented: $SchoolAlert) {
+                    Alert(title: Text("학교를 올바르게 입력해주세요 !"), message: nil,
+                          dismissButton: .default(Text("확인")))
+                }
                 
-                // NavigationLink for navigation
                 NavigationLink(
                     destination: MealView(schoolCode: schoolCode, schoolName: searchSchool, educationCode: educationCode),
                     isActive: $navigateToMealView
