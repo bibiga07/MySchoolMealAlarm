@@ -12,14 +12,21 @@ struct MealView: View {
     var schoolName: String
     var educationCode: String
     
+    @Environment(\.presentationMode) var presentationMode: Binding<PresentationMode>
     @StateObject private var viewModel = MealInfoViewModel()
+    
+    var backButton: some View {
+        Button {
+            self.presentationMode.wrappedValue.dismiss()
+        } label: {
+            Image(systemName: "chevron.left")
+                .foregroundColor(.black)
+        }
+    }
     
     var body: some View {
         VStack {
             if let schoolCode = schoolCode {
-                Text("\(schoolName) 🏫")
-                    .font(.system(size: 22, weight: .bold))
-                
                 HStack {
                     Text("오늘의 날짜는 ? ")
                         .font(.system(size: 18, weight: .regular))
@@ -44,7 +51,9 @@ struct MealView: View {
                 Text("학교 코드를 찾을 수 없습니다.")
             }
         }
-        .navigationBarTitle("급식 정보", displayMode: .inline)
+        .navigationBarTitle("\(schoolName) 🏫", displayMode: .inline)
+        .navigationBarBackButtonHidden(true)
+        .navigationBarItems(leading: backButton)
     }
 }
 
