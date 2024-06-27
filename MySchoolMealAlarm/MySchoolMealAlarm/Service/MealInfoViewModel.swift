@@ -11,12 +11,17 @@ import Alamofire
 class MealInfoViewModel: ObservableObject {
     @Published var meals: [MealInfo] = []
     
-    func fetchData(schoolCode: String) {
+    var currentDate: String {
+        return getCurrentDate()
+    }
+    
+    func fetchData(schoolCode: String, educationCode: String) {
+        let todayDate = getCurrentDate()
         let parameters: [String: String] = [
-            "ATPT_OFCDC_SC_CODE": "D10",
+            "ATPT_OFCDC_SC_CODE": educationCode,
             "SD_SCHUL_CODE": schoolCode,
             "KEY": "\(Storage().niceapiKey)",
-            "MLSV_YMD": "20240620"
+            "MLSV_YMD": todayDate
         ]
         
         let url = "https://open.neis.go.kr/hub/mealServiceDietInfo"
@@ -39,4 +44,11 @@ class MealInfoViewModel: ObservableObject {
                 }
             }
     }
+    
+    private func getCurrentDate() -> String {
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = "yyyyMMdd"
+        return dateFormatter.string(from: Date())
+    }
 }
+

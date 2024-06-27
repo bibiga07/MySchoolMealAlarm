@@ -76,7 +76,7 @@ struct SearchView: View {
                 
                 // NavigationLink for navigation
                 NavigationLink(
-                    destination: MealView(schoolCode: schoolCode, schoolName: searchSchool),
+                    destination: MealView(schoolCode: schoolCode, schoolName: searchSchool, educationCode: educationCode),
                     isActive: $navigateToMealView
                 ) {
                     EmptyView()
@@ -159,4 +159,3 @@ struct SearchView: View {
 #Preview {
     SearchView()
 }
-
