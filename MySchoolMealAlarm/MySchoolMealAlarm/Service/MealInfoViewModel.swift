@@ -26,6 +26,8 @@ class MealInfoViewModel: ObservableObject {
         
         let url = "https://open.neis.go.kr/hub/mealServiceDietInfo"
         
+        var meals: [MealInfo] = []
+        
         AF.request(url, method: .get, parameters: parameters)
             .validate()
             .responseData { response in

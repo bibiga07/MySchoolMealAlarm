@@ -79,7 +79,6 @@ struct SearchView: View {
                     Alert(title: Text("학교를 올바르게 입력해주세요 !"), message: nil,
                           dismissButton: .default(Text("확인")))
                 }
-                
                 NavigationLink(
                     destination: MealView(schoolCode: schoolCode, schoolName: searchSchool, educationCode: educationCode),
                     isActive: $navigateToMealView

@@ -40,10 +40,17 @@ struct MealView: View {
                             .font(.headline)
                         Text(meal.mealName)
                             .font(.subheadline)
-                        Text(meal.dishes)
+                        Text(meal.dishes.replacingOccurrences(of: "<br/>", with: "\n"))
                             .font(.body)
                     }
                 }
+                VStack(alignment: .leading) {
+                    Text("알러지 정보 ❗️")
+                        .font(.system(size: 18, weight: .bold))
+                    Text("①난류(가금류), ②우유, ③메밀, ④땅콩, ⑤대두, ⑥밀, ⑦고등어, ⑧게, ⑨새우, ⑩돼지고기, ⑪복숭아, ⑫토마토, ⑬아황산염")
+                        .font(.system(size: 18, weight: .thin))
+                }
+                .padding()
                 .onAppear {
                     viewModel.fetchData(schoolCode: schoolCode, educationCode: educationCode)
                 }
