@@ -7,8 +7,7 @@
 
 import Foundation
 
-struct MealInfo: Identifiable {
-    let id = UUID()
+struct MealInfo: Hashable {
     let officeCode: String
     let officeName: String
     let schoolCode: String

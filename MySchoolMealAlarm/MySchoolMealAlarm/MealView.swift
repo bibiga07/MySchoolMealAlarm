@@ -34,7 +34,7 @@ struct MealView: View {
                         .font(.system(size: 18, weight: .thin))
                 }
                 
-                List(viewModel.meals) { meal in
+                List(viewModel.meals, id: \.self) { meal in
                     VStack(alignment: .leading) {
                         Text(meal.schoolName)
                             .font(.headline)
