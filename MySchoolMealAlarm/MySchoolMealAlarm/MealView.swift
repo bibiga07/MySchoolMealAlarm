@@ -13,6 +13,7 @@ struct MealView: View {
     var educationCode: String
     
     @Environment(\.presentationMode) var presentationMode: Binding<PresentationMode>
+    @Environment(\.colorScheme) var colorScheme: ColorScheme
     @StateObject private var viewModel = MealInfoViewModel()
     
     var backButton: some View {
@@ -20,7 +21,7 @@ struct MealView: View {
             self.presentationMode.wrappedValue.dismiss()
         } label: {
             Image(systemName: "chevron.left")
-                .foregroundColor(.black)
+                .foregroundColor(colorScheme == .dark ? .white : .black)
         }
     }
     
@@ -36,12 +37,10 @@ struct MealView: View {
                 
                 List(viewModel.meals, id: \.self) { meal in
                     VStack(alignment: .leading) {
-                        Text(meal.schoolName)
-                            .font(.headline)
                         Text(meal.mealName)
-                            .font(.subheadline)
+                            .font(.system(size: 15, weight: .bold))
                         Text(meal.dishes.replacingOccurrences(of: "<br/>", with: "\n"))
-                            .font(.body)
+                            .font(.system(size: 15, weight: .regular))
                     }
                 }
                 VStack(alignment: .leading) {
@@ -67,3 +66,4 @@ struct MealView: View {
 #Preview {
     MealView(schoolCode: "7240454", schoolName: "대구소프트웨어마이스터고등학교", educationCode: "D10")
 }
+

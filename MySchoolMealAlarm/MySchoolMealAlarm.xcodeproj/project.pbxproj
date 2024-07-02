@@ -120,11 +120,11 @@
 				4D5A67592C26AD5900BB2D2D /* C10_education.csv */,
 				4D5A67572C26AB5800BB2D2D /* B10_education.csv */,
 				4D5A67552C26AAA700BB2D2D /* D10_education.csv */,
-				4D81D09A2C22748200BFD3BF /* MySchoolMealAlarmApp.swift */,
 				4D9A57BC2C2D0FAA00B6E41C /* Launchs.swift */,
 				4DDF2D652C2289D400B3AB56 /* ContentView.swift */,
 				4DDF2D722C23C4C000B3AB56 /* SearchView.swift */,
 				4D5A67532C26A60300BB2D2D /* MealView.swift */,
+				4D81D09A2C22748200BFD3BF /* MySchoolMealAlarmApp.swift */,
 				4DDF2D712C23ADDA00B3AB56 /* Service */,
 				4D81D09E2C22748300BFD3BF /* Assets.xcassets */,
 				4D81D0A02C22748300BFD3BF /* Preview Content */,
@@ -402,7 +402,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = bibiga.MySchoolMealAlarm;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -433,7 +433,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = bibiga.MySchoolMealAlarm;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
