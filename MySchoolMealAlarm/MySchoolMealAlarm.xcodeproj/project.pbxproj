@@ -37,6 +37,8 @@
 		4DDF2D6E2C23AD3700B3AB56 /* MealInfoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DDF2D6D2C23AD3700B3AB56 /* MealInfoViewModel.swift */; };
 		4DDF2D702C23ADCB00B3AB56 /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DDF2D6F2C23ADCB00B3AB56 /* Storage.swift */; };
 		4DDF2D732C23C4C000B3AB56 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DDF2D722C23C4C000B3AB56 /* SearchView.swift */; };
+		4DF9D13E2C69AC3900B956AA /* SelectSchoolView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF9D13D2C69AC3900B956AA /* SelectSchoolView.swift */; };
+		4DF9D1402C69AC4700B956AA /* TabbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF9D13F2C69AC4700B956AA /* TabbarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -70,6 +72,8 @@
 		4DDF2D6D2C23AD3700B3AB56 /* MealInfoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealInfoViewModel.swift; sourceTree = "<group>"; };
 		4DDF2D6F2C23ADCB00B3AB56 /* Storage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
 		4DDF2D722C23C4C000B3AB56 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		4DF9D13D2C69AC3900B956AA /* SelectSchoolView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectSchoolView.swift; sourceTree = "<group>"; };
+		4DF9D13F2C69AC4700B956AA /* TabbarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,7 +126,9 @@
 				4D5A67552C26AAA700BB2D2D /* D10_education.csv */,
 				4D9A57BC2C2D0FAA00B6E41C /* Launchs.swift */,
 				4DDF2D652C2289D400B3AB56 /* ContentView.swift */,
+				4DF9D13F2C69AC4700B956AA /* TabbarView.swift */,
 				4DDF2D722C23C4C000B3AB56 /* SearchView.swift */,
+				4DF9D13D2C69AC3900B956AA /* SelectSchoolView.swift */,
 				4D5A67532C26A60300BB2D2D /* MealView.swift */,
 				4D81D09A2C22748200BFD3BF /* MySchoolMealAlarmApp.swift */,
 				4DDF2D712C23ADDA00B3AB56 /* Service */,
@@ -251,7 +257,9 @@
 				4DDF2D702C23ADCB00B3AB56 /* Storage.swift in Sources */,
 				4DDF2D6C2C23ACAF00B3AB56 /* MealData.swift in Sources */,
 				4DDF2D662C2289D400B3AB56 /* ContentView.swift in Sources */,
+				4DF9D1402C69AC4700B956AA /* TabbarView.swift in Sources */,
 				4DDF2D732C23C4C000B3AB56 /* SearchView.swift in Sources */,
+				4DF9D13E2C69AC3900B956AA /* SelectSchoolView.swift in Sources */,
 				4D5A67542C26A60300BB2D2D /* MealView.swift in Sources */,
 				4DDF2D6E2C23AD3700B3AB56 /* MealInfoViewModel.swift in Sources */,
 				4D81D09B2C22748200BFD3BF /* MySchoolMealAlarmApp.swift in Sources */,
@@ -437,6 +445,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = bibiga.MySchoolMealAlarm;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
