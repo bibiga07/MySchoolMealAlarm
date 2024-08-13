@@ -18,13 +18,14 @@ struct SelectSchoolView: View {
     
     @State private var selectedEducation: String = "인천광역시교육청"
     @State private var searchSchool: String = ""
-    @State private var SchoolAlert = false
-    @State private var SchoolAlertOkay = false
+    @State private var showingAlert = false
+    @State private var alertMessage = ""
     
     var body: some View {
         VStack(spacing: 30) {
             Text("본인의 학교를 입력해주세요 !")
                 .font(.system(size: 28, weight: .bold))
+            
             Picker("교육청 선택", selection: $selectedEducation) {
                 ForEach(officeofEducation, id: \.self) { education in
                     Text(education)
@@ -45,7 +46,8 @@ struct SelectSchoolView: View {
             
             Button(action: {
                 if searchSchool.isEmpty {
-                    SchoolAlert = true
+                    alertMessage = "학교를 올바르게 입력해주세요!"
+                    showingAlert = true
                 } else {
                     saveSchoolInfo()
                 }
@@ -60,13 +62,8 @@ struct SelectSchoolView: View {
                     )
             }
             .padding()
-            .alert(isPresented: $SchoolAlert) {
-                Alert(title: Text("학교를 올바르게 입력해주세요 !"), message: nil,
-                      dismissButton: .default(Text("확인")))
-            }
-            .alert(isPresented: $SchoolAlertOkay) {
-                Alert(title: Text("등록 완료"), message: Text("학교 정보가 성공적으로 저장되었습니다."),
-                      dismissButton: .default(Text("확인")))
+            .alert(isPresented: $showingAlert) {
+                Alert(title: Text(alertMessage), dismissButton: .default(Text("확인")))
             }
         }
     }
@@ -74,7 +71,8 @@ struct SelectSchoolView: View {
     private func saveSchoolInfo() {
         UserDefaults.standard.set(selectedEducation, forKey: "selectedEducation")
         UserDefaults.standard.set(searchSchool, forKey: "searchSchool")
-        SchoolAlertOkay = true
+        alertMessage = "학교 정보가 성공적으로 저장되었습니다."
+        showingAlert = true
     }
 }
 

@@ -39,6 +39,7 @@
 		4DDF2D732C23C4C000B3AB56 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DDF2D722C23C4C000B3AB56 /* SearchView.swift */; };
 		4DF9D13E2C69AC3900B956AA /* SelectSchoolView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF9D13D2C69AC3900B956AA /* SelectSchoolView.swift */; };
 		4DF9D1402C69AC4700B956AA /* TabbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF9D13F2C69AC4700B956AA /* TabbarView.swift */; };
+		4DF9D1422C6AFA0600B956AA /* MySchoolView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF9D1412C6AFA0600B956AA /* MySchoolView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -74,6 +75,7 @@
 		4DDF2D722C23C4C000B3AB56 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 		4DF9D13D2C69AC3900B956AA /* SelectSchoolView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectSchoolView.swift; sourceTree = "<group>"; };
 		4DF9D13F2C69AC4700B956AA /* TabbarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarView.swift; sourceTree = "<group>"; };
+		4DF9D1412C6AFA0600B956AA /* MySchoolView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySchoolView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +129,7 @@
 				4D9A57BC2C2D0FAA00B6E41C /* Launchs.swift */,
 				4DDF2D652C2289D400B3AB56 /* ContentView.swift */,
 				4DF9D13F2C69AC4700B956AA /* TabbarView.swift */,
+				4DF9D1412C6AFA0600B956AA /* MySchoolView.swift */,
 				4DDF2D722C23C4C000B3AB56 /* SearchView.swift */,
 				4DF9D13D2C69AC3900B956AA /* SelectSchoolView.swift */,
 				4D5A67532C26A60300BB2D2D /* MealView.swift */,
@@ -262,6 +265,7 @@
 				4DF9D13E2C69AC3900B956AA /* SelectSchoolView.swift in Sources */,
 				4D5A67542C26A60300BB2D2D /* MealView.swift in Sources */,
 				4DDF2D6E2C23AD3700B3AB56 /* MealInfoViewModel.swift in Sources */,
+				4DF9D1422C6AFA0600B956AA /* MySchoolView.swift in Sources */,
 				4D81D09B2C22748200BFD3BF /* MySchoolMealAlarmApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

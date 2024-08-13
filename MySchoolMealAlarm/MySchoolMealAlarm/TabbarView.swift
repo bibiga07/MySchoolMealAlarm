@@ -9,16 +9,16 @@ import SwiftUI
 
 struct TabbarView: View {
     var body: some View {
-        TabView{
+        TabView {
+            MySchoolView()
+                .tabItem {
+                    Image(systemName: "person")
+                    Text("나의 학교")
+                }
             SearchView()
                 .tabItem {
                     Image(systemName: "magnifyingglass")
                     Text("학교 검색")
-                }
-            SelectSchoolView()
-                .tabItem {
-                    Image(systemName: "person")
-                    Text("나의 학교")
                 }
         }
         .accentColor(Color(.black))
