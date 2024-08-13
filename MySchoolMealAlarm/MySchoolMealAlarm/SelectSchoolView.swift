@@ -20,7 +20,8 @@ struct SelectSchoolView: View {
     @State private var searchSchool: String = ""
     @State private var showingAlert = false
     @State private var alertMessage = ""
-    
+    @Environment(\.presentationMode) var presentationMode
+
     var body: some View {
         VStack(spacing: 30) {
             Text("본인의 학교를 입력해주세요 !")
@@ -63,7 +64,11 @@ struct SelectSchoolView: View {
             }
             .padding()
             .alert(isPresented: $showingAlert) {
-                Alert(title: Text(alertMessage), dismissButton: .default(Text("확인")))
+                Alert(title: Text(alertMessage), dismissButton: .default(Text("확인")) {
+                    if alertMessage == "학교 정보가 성공적으로 저장되었습니다." {
+                        presentationMode.wrappedValue.dismiss()
+                    }
+                })
             }
         }
     }

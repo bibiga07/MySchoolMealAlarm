@@ -18,18 +18,19 @@ struct MySchoolView: View {
         NavigationView{
             VStack {
                 if let schoolCode = schoolCode {
-                    VStack(alignment: .leading) {
-                        Text("오늘 우리 학교 급식은 ?")
-                            .font(.system(size: 28, weight: .bold))
-                            .frame(width: 300, height: 10, alignment: .leading)
-                            .padding(.leading,20)
+                    VStack(spacing:1) {
+                        Text("\(selectedEducation)")
+                            .font(.system(size: 15, weight: .thin))
                         
-                        Text("\(selectedEducation) \(searchSchool)")
-                            .font(.system(size: 16, weight: .regular))
-                            .frame(width: 350, height: 30, alignment: .leading)
-                            .padding(.leading,20)
+                        Text("\(searchSchool) 🏫")
+                            .font(.system(size: 20, weight: .bold))
+                            .padding(.bottom,3)
                     }
-                    .padding(.top,30)
+                    
+                    Text("오늘의 급식 \(viewModel.currentDate) 📅")
+                        .font(.system(size: 16, weight: .regular))
+                        .padding(.bottom,10)
+                    
                     List(viewModel.meals, id: \.self) { meal in
                         VStack(alignment: .leading) {
                             Text(meal.mealName)
@@ -44,7 +45,7 @@ struct MySchoolView: View {
                         Text("①난류(가금류), ②우유, ③메밀, ④땅콩, ⑤대두, ⑥밀, ⑦고등어, ⑧게, ⑨새우, ⑩돼지고기, ⑪복숭아, ⑫토마토, ⑬아황산염")
                             .font(.system(size: 18, weight: .thin))
                     }
-                    .padding(30)
+                    .padding(20)
                 } else {
                     VStack {
                         Text("학교가 등록 되어 있지 않아요 !")

@@ -20,6 +20,11 @@ struct TabbarView: View {
                     Image(systemName: "magnifyingglass")
                     Text("학교 검색")
                 }
+            SelectSchoolView()
+                .tabItem {
+                    Image(systemName: "graduationcap")
+                    Text("학교 선택")
+                }
         }
         .accentColor(Color(.black))
     }
