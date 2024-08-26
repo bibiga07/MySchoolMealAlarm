@@ -14,6 +14,7 @@ struct MySchoolView: View {
     @State private var educationCode: String = ""
     @StateObject private var viewModel = MealInfoViewModel()
     
+    @Environment(\.colorScheme) var colorScheme
     var body: some View {
         NavigationView{
             VStack {
@@ -54,10 +55,10 @@ struct MySchoolView: View {
                             Rectangle()
                                 .frame(width:340,height:50)
                                 .cornerRadius(10)
-                                .foregroundColor(.black)
+                                .foregroundColor(colorScheme == .dark ? .white : .black)
                                 .overlay(
                                     Text("학교 등록하기")
-                                        .foregroundColor(.white)
+                                        .foregroundColor(colorScheme == .dark ? .black : .white)
                                 )
                         }
                     }

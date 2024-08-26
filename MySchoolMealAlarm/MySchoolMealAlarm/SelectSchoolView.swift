@@ -21,6 +21,8 @@ struct SelectSchoolView: View {
     @State private var showingAlert = false
     @State private var alertMessage = ""
     @Environment(\.presentationMode) var presentationMode
+    
+    @Environment(\.colorScheme) var colorScheme
 
     var body: some View {
         VStack(spacing: 30) {
@@ -55,11 +57,11 @@ struct SelectSchoolView: View {
             }) {
                 Rectangle()
                     .frame(width: 330, height: 50)
-                    .foregroundColor(.black)
+                    .foregroundColor(colorScheme == .dark ? .white : .black)
                     .cornerRadius(15)
                     .overlay(
                         Text("저장")
-                            .foregroundColor(.white)
+                            .foregroundColor(colorScheme == .dark ? .black : .white)
                     )
             }
             .padding()

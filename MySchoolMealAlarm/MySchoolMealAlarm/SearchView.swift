@@ -22,6 +22,7 @@ struct SearchView: View {
     @State private var navigateToMealView = false
     
     @State private var SchoolAlert = false
+    @Environment(\.colorScheme) var colorScheme
     
     var body: some View {
         NavigationView {
@@ -68,11 +69,11 @@ struct SearchView: View {
                 }) {
                     Rectangle()
                         .frame(width: 330, height: 50)
-                        .foregroundColor(.black)
+                        .foregroundColor(colorScheme == .dark ? .white : .black)
                         .cornerRadius(15)
                         .overlay(
                             Text("검색")
-                                .foregroundColor(.white)
+                                .foregroundColor(colorScheme == .dark ? .black : .white)
                         )
                 }
                 .alert(isPresented: $SchoolAlert) {
